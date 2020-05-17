@@ -13,9 +13,11 @@ class App extends Component {
       studentList: [],
     }
   }
+
+  
   getStudents = () => {
     fetch('http://localhost:9000/api/students')
-      // .then((Response) => Response.json())
+      .then((Response) => Response.json())
       .then((res) => {
         this.setState({
           studentList: res,

@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from 'react';
-// import { DataTable, TableHeader } from 'react-mdl';
 
 import './Table.css';
-
 
 export default class Table extends Component {
 
@@ -16,7 +14,6 @@ export default class Table extends Component {
 			zipcode: '',
 			city: '',
 		}
-		// this.deleteStudents = this.deleteStudents.bind(this, students);
 	}
 
 	BASE_URL = 'http://localhost:9000';
@@ -29,7 +26,6 @@ export default class Table extends Component {
 		fetch(this.BASE_URL + '/api/students/')
 		.then(Response => Response.json())
 		.then(res => {
-			console.log('studentList', res)
 			this.setState({
 				studentList: res,
 			});
@@ -62,7 +58,6 @@ export default class Table extends Component {
 					<p>Street: {students.address.street}</p>
 					<p>Zipcode: {students.address.zipcode}</p>
 					<p>City: {students.address.city}</p>
-					{students._id}
 					<button onClick={() => {this.deleteStudents(students._id)}} className="RemoveBtn">Remove</button>
 				</div>
 			)}

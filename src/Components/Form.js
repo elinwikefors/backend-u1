@@ -76,7 +76,7 @@ export default class componentName extends Component {
     })
     .then(res => res.json())
       .then(() => {
-        // this.props.getStudents();
+        this.props.getStudents();
         this.setState({
           name: '',
           email: '',
@@ -90,7 +90,6 @@ export default class componentName extends Component {
   
 
   render() {
-    // console.log(this.props.getStudent)
     return (
       <Fragment>
           <h2>add new</h2>
@@ -125,7 +124,7 @@ export default class componentName extends Component {
             value={this.state.city}
             onChange={this.handleCity} 
             /> <br/>
-            <button className="newStudent">Add new</button>
+            <button onClick={() => window.location.reload(false)} className="newStudent">Add new</button>
           </form>
       </Fragment>
     );
