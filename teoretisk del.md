@@ -40,7 +40,7 @@
    
   -  **query** - `curl GET localhost:9000/api/students/?name=tomte -i -X`
 
-  - **header** - curl GET  localhost:9000/api/students -H “name”: “studentName”
+  - **header** - `curl GET  localhost:9000/api/students -H “name”: “studentName”`
 
-  - **path** - curl  GET "localhost:9000/api/students -i
+  - **path** - `curl  GET "localhost:9000/api/students -i`
 
