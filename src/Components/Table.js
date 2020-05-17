@@ -37,7 +37,6 @@ export default class Table extends Component {
     return fetch('http://localhost:9000/api/students/' + id, {
       method: 'DELETE',
     }).then(response => {
-			console.log(response)
       return response.json();
     }).then((res) => {
 			this.fetchStudents();
