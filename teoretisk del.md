@@ -38,7 +38,7 @@
 
   Det finns 3 sätt att skicka in parameter i en http request
    
-  -  **query** - curl GET localhost:9000/api/students/?name=tomte -i -X
+  -  **query** - `curl GET localhost:9000/api/students/?name=tomte -i -X`
 
   - **header** - curl GET  localhost:9000/api/students -H “name”: “studentName”
 
