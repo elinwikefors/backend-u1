@@ -1,0 +1,32 @@
+
+.container {
+    width: 300px;
+    height: 250px;
+    background: lightslategray;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.container > p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.RemoveBtn {
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: none;
+    background: lightcoral;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
