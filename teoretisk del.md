@@ -36,11 +36,11 @@
 
 ### 4. På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl?
 
-  Det finns 3 sätt att skicka in parameter i en htpp requst
+  Det finns 3 sätt att skicka in parameter i en http request
    
-    -  **query** - ```curl GET localhost:9000/api/students/?name=tomte -i -X```
+    -  **query** - curl GET localhost:9000/api/students/?name=tomte -i -X
 
-    - **header** - ```curl GET  localhost:9000/api/students -H “name”: “studentName”```
+    - **header** - curl GET  localhost:9000/api/students -H “name”: “studentName”
 
-    - **path** - ```curl  GET "localhost:9000/api/students -i```
+    - **path** - curl  GET "localhost:9000/api/students -i
 
