@@ -1,4 +1,4 @@
-alt-H1 Backen api uppgift 1 teoretiskt
+# Backen api uppgift 1 teoretiskt
 ------
 
 ### 1. Hur används HTTP-protokollet när du surfar in på en webbsida? Beskriv vilken metod, path, URI, response code och body som skickas in och svarar. <http://www.smp.se/kultur-noje/> ?
@@ -12,13 +12,13 @@ alt-H1 Backen api uppgift 1 teoretiskt
 
 ### 2. Beskriv HTTP-protokollets vanligaste metoder och vad de gör?
 
-⋅⋅**GET** - Begär en representation av den angivna resursen
+⋅⋅ * **GET** - Begär en representation av den angivna resursen
 
-⋅⋅**POST** - Används för att skicka något till resursen
+⋅⋅ * **POST** - Används för att skicka något till resursen
 
-⋅⋅**PUT** - Begär att den slutna enheten lagras under den medföljande URI. Om URI hänvisas till en befintlig resurs ändras den. 
+⋅⋅ * **PUT** - Begär att den slutna enheten lagras under den medföljande URI. Om URI hänvisas till en befintlig resurs ändras den. 
 
-⋅⋅**DELETE** - Radera den angivna resursen
+⋅⋅ * **DELETE** - Radera den angivna resursen
 
 ### 3. "http://localhost:3000/users?username=something" är en URI, beskriv vilka delar den består av och vad de kallas?
 
