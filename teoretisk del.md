@@ -12,11 +12,11 @@
 
 ### 2. Beskriv HTTP-protokollets vanligaste metoder och vad de gör?
 
-⋅⋅ * **GET** - Begär en representation av den angivna resursen
+⋅⋅ - **GET** - Begär en representation av den angivna resursen
 
-⋅⋅ * **POST** - Används för att skicka något till resursen
+⋅⋅ - **POST** - Används för att skicka något till resursen
 
-⋅⋅ * **PUT** - Begär att den slutna enheten lagras under den medföljande URI. Om URI hänvisas till en befintlig resurs ändras den. 
+⋅⋅ - **PUT** - Begär att den slutna enheten lagras under den medföljande URI. Om URI hänvisas till en befintlig resurs ändras den. 
 
 ⋅⋅ * **DELETE** - Radera den angivna resursen
 
