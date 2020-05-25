@@ -94,16 +94,8 @@
 
 ### 6. Vad är fördelarna med API:er jämfört med en weblösning som går direkt mot en databas?
 
- - En API erbjuder utöver tredjepartsapplikationer att integrera med webblösningar, väldigt stor flexibilitet. Sedan så är det väldigt bra att använda en API för expandering. Oftast så är backend vädligt tajt kopplad till själva html och js koden. Men skriver en API så kan du vara lite mer flexibel och lägga in API kallelser här och var utan att förstöra eller behöva göra om själva backend koden. Skulle du vilja expendera din webbsida till en mobilapplikcation med t.ex. Angular eller React så kommer du inte behöva ta ut backend funktionerna du vill ha och lägga i den nya appen. Det räcker med att du sätter en http klient som kan använda sig av ApIn. 
+ - En API erbjuder utöver tredjepartsapplikationer att integrera med webblösningar, väldigt stor flexibilitet. Sedan så är det väldigt bra att använda en API för expandering. Oftast så är backend vädligt tajt kopplad till själva html och js koden. Men skriver en API så kan du vara lite mer flexibel och lägga in API kallelser här och var utan att förstöra eller behöva göra om själva backend koden. Skulle du vilja expendera din webbsida till en mobilapplikcation med t.ex. Angular eller React så kommer du inte behöva ta ut backend funktionerna du vill ha och lägga i den nya appen. Det räcker med att du sätter en http klient som kan använda sig av ApIn. En viktig fördel med APIs erbjudande är säkerheten. Det är säkrare att ha en API för att kontrollera begärans identitet än att låta alla förfrågningar gå in i databasen
  
- Ett bra API gör det lättare att utveckla ett datorprogram genom att tillhandahålla alla byggstenar som sedan sätts samman av programmeraren.
-
-     API: er ger flexibilitet mellan presentation och tillhandahållen affärsfunktionalitet.
-     API: er kan användas av mer än en klient.
-     Att sälja åtkomst till API har blivit stora affärer.
-         Kallas API-intäktsgenerering.
-         Du vill att andra ska använda ditt API!
-
 
 ### 7. Vad innebär OAUTH?
 
